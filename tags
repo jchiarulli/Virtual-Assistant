@@ -23386,6 +23386,8 @@ negative_opt	env/lib/python3.6/site-packages/setuptools/command/sdist.py	/^    n
 neighboring	env/lib/python3.6/site-packages/nltk/translate/ibm_model.py	/^    def neighboring(self, alignment_info, j_pegged=None):$/;"	m	class:IBMModel
 neighboring_mock	env/lib/python3.6/site-packages/nltk/test/unit/translate/test_ibm_model.py	/^        def neighboring_mock(a, j):$/;"	f	member:TestIBMModel.test_hillclimb	file:
 nemo	env/lib/python3.6/site-packages/nltk/app/__init__.py	/^    from nltk.app.nemo_app import app as nemo$/;"	x
+ner_tagger	Named_Entity_Recognition.py	/^ner_tagger = StanfordNERTagger("stanford-ner\/classifiers\/english.all.3class.distsim.crf.ser.gz/;"	v
+ner_tags	Named_Entity_Recognition.py	/^ner_tags = ner_tagger.tag(tokens)$/;"	v
 nestedExpr	env/lib/python3.6/site-packages/pip/_vendor/pyparsing.py	/^def nestedExpr(opener="(", closer=")", content=None, ignoreExpr=quotedString.copy()):$/;"	f
 nestedExpr	env/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py	/^def nestedExpr(opener="(", closer=")", content=None, ignoreExpr=quotedString.copy()):$/;"	f
 nestedExpr	env/lib/python3.6/site-packages/setuptools/_vendor/pyparsing.py	/^def nestedExpr(opener="(", closer=")", content=None, ignoreExpr=quotedString.copy()):$/;"	f
@@ -23944,6 +23946,9 @@ outer_next	env/include/python3.6m/numpy/ndarraytypes.h	/^        NpyIter_IterNex
 outer_ptrs	env/include/python3.6m/numpy/ndarraytypes.h	/^        char                  **outer_ptrs;$/;"	m	struct:__anon18f540691208	typeref:typename:char **
 outer_strides	env/include/python3.6m/numpy/ndarraytypes.h	/^        npy_intp              *outer_strides;$/;"	m	struct:__anon18f540691208	typeref:typename:npy_intp *
 outf_writer_compat	env/lib/python3.6/site-packages/nltk/twitter/common.py	/^def outf_writer_compat(outfile, encoding, errors, gzip_compress=False):$/;"	f
+output	Remove_Stopwords.py	/^output = []$/;"	v
+output	Remove_punctuation.py	/^output = []$/;"	v
+output	Remove_punctuation.py	/^output = [k for k in tokens if k.isalpha()]$/;"	v
 output_markdown	env/lib/python3.6/site-packages/nltk/sentiment/util.py	/^def output_markdown(filename, **kwargs):$/;"	f
 output_package_listing	env/lib/python3.6/site-packages/pip/_internal/commands/list.py	/^    def output_package_listing(self, packages, options):$/;"	m	class:ListCommand
 output_package_listing_columns	env/lib/python3.6/site-packages/pip/_internal/commands/list.py	/^    def output_package_listing_columns(self, data, header):$/;"	m	class:ListCommand
@@ -26049,6 +26054,8 @@ sent_end_chars	env/lib/python3.6/site-packages/nltk/tokenize/punkt.py	/^    sent
 sent_path	env/lib/python3.6/site-packages/nltk/corpus/reader/mte.py	/^    sent_path = "TEI\/text\/body\/div\/div\/p\/s"$/;"	v	class:MTEFileReader
 sent_times	env/lib/python3.6/site-packages/nltk/corpus/reader/timit.py	/^    def sent_times(self, utterances=None):$/;"	m	class:TimitCorpusReader
 sent_tokenize	env/lib/python3.6/site-packages/nltk/tokenize/__init__.py	/^def sent_tokenize(text, language='english'):$/;"	f
+sentence	Remove_Stopwords.py	/^sentence = "Some stupid sentence to be tokenized, also we should check things like didn't or wou/;"	v
+sentence	Remove_punctuation.py	/^sentence = "Some stupid sentence to be tokenized, also we should check things like didn't or wou/;"	v
 sentence	Tokenizer.py	/^sentence = "Some stupdi sentence to be tokenizes also we should check things like didn't or woul/;"	v
 sentence_bleu	env/lib/python3.6/site-packages/nltk/translate/bleu_score.py	/^def sentence_bleu(references, hypothesis, weights=(0.25, 0.25, 0.25, 0.25),$/;"	f
 sentence_chrf	env/lib/python3.6/site-packages/nltk/translate/chrf_score.py	/^def sentence_chrf(reference, hypothesis, min_len=1, max_len=6, beta=3.0):$/;"	f
@@ -26858,6 +26865,7 @@ stop	env/lib/python3.6/site-packages/nltk/parse/corenlp.py	/^    def stop(self):
 stop	env/lib/python3.6/site-packages/pip/_vendor/distlib/util.py	/^    def stop(self):$/;"	m	class:Progress
 stop_after_attempt	env/lib/python3.6/site-packages/pip/_vendor/retrying.py	/^    def stop_after_attempt(self, previous_attempt_number, delay_since_first_attempt_ms):$/;"	m	class:Retrying
 stop_after_delay	env/lib/python3.6/site-packages/pip/_vendor/retrying.py	/^    def stop_after_delay(self, previous_attempt_number, delay_since_first_attempt_ms):$/;"	m	class:Retrying
+stop_words	Remove_Stopwords.py	/^stop_words = set(stopwords.words('english'))$/;"	v
 stopwords	env/lib/python3.6/site-packages/nltk/corpus/__init__.py	/^stopwords = LazyCorpusLoader($/;"	v
 str	env/lib/python3.6/locale.py	/^def str(val):$/;"	f
 str	env/lib/python3.6/site-packages/nltk/sem/logic.py	/^    def str(self):$/;"	m	class:AnyType
@@ -27507,6 +27515,7 @@ testlist_star_expr	env/include/python3.6m/graminit.h	/^#define testlist_star_exp
 tests_rel_dominance	env/lib/python3.6/site-packages/nltk/test/unit/test_tgrep.py	/^    def tests_rel_dominance(self):$/;"	m	class:TestSequenceFunctions
 tests_rel_indexed_children	env/lib/python3.6/site-packages/nltk/test/unit/test_tgrep.py	/^    def tests_rel_indexed_children(self):$/;"	m	class:TestSequenceFunctions
 testuniversal	env/lib/python3.6/config-3.6m-x86_64-linux-gnu/Makefile	/^testuniversal:	all platform$/;"	t
+text	Named_Entity_Recognition.py	/^text = "Jason has yet to commit to this repo, and Nick is ugly in Australia!"$/;"	v
 text	env/include/python3.6m/parsetok.h	/^    char *text;                 \/* UTF-8-encoded string *\/$/;"	m	struct:__anon7da4e2440108	typeref:typename:char *
 text	env/include/python3.6m/pyerrors.h	/^    PyObject *text;$/;"	m	struct:__anon3af7cb010208	typeref:typename:PyObject *
 text	env/lib/python3.6/site-packages/nltk/draw/util.py	/^    def text(self):$/;"	m	class:TextWidget
@@ -27640,6 +27649,9 @@ tokenize	env/lib/python3.6/tokenize.py	/^def tokenize(readline):$/;"	f
 tokenize_sents	env/lib/python3.6/site-packages/nltk/tokenize/api.py	/^    def tokenize_sents(self, strings):$/;"	m	class:TokenizerI
 tokenize_sents	env/lib/python3.6/site-packages/nltk/tokenize/repp.py	/^    def tokenize_sents(self, sentences, keep_token_positions=False):$/;"	m	class:ReppTokenizer
 tokenized	env/lib/python3.6/site-packages/nltk/corpus/reader/twitter.py	/^    def tokenized(self, fileids=None):$/;"	m	class:TwitterCorpusReader
+tokens	Named_Entity_Recognition.py	/^tokens = word_tokenize(text)$/;"	v
+tokens	Remove_Stopwords.py	/^tokens = nltk.word_tokenize(sentence)$/;"	v
+tokens	Remove_punctuation.py	/^tokens = nltk.word_tokenize(sentence)$/;"	v
 tokens	Tokenizer.py	/^tokens = nltk.word_tokenize(sentence)$/;"	v
 tokens	env/lib/python3.6/site-packages/nltk/parse/featurechart.py	/^    tokens = sent.split()$/;"	v
 tokens	env/lib/python3.6/site-packages/nltk/text.py	/^    def tokens(self):$/;"	m	class:ConcordanceIndex
