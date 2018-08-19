@@ -1,6 +1,6 @@
 import nltk
 
-nltk.download('punkt')
+#nltk.download('./env/punkt')
 
 sentence = "Some stupdi sentence to be tokenizes also we should check things like didn't or wouldn't"
 
