@@ -7623,6 +7623,7 @@ TokenInfo	env/lib/python3.6/tokenize.py	/^class TokenInfo(collections.namedtuple
 TokenSearcher	env/lib/python3.6/site-packages/nltk/text.py	/^class TokenSearcher(object):$/;"	c
 TokenSequence	env/lib/python3.6/site-packages/nltk/tokenize/texttiling.py	/^class TokenSequence(object):$/;"	c
 TokenTableField	env/lib/python3.6/site-packages/nltk/tokenize/texttiling.py	/^class TokenTableField(object):$/;"	c
+Tokenizer	README.md	/^## Tokenizer$/;"	s
 Tokenizer	env/lib/python3.6/sre_parse.py	/^class Tokenizer:$/;"	c
 TokenizerI	env/lib/python3.6/site-packages/nltk/tokenize/api.py	/^class TokenizerI(object):$/;"	c
 Tokens	env/lib/python3.6/site-packages/nltk/sem/linearlogic.py	/^class Tokens(object):$/;"	c

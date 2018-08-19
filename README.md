@@ -25,4 +25,6 @@ import nltk
 
 nltk.download_gui()
 ```
+### Note 
 
+I may have added to many corpi?
