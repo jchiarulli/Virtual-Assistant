@@ -4062,6 +4062,7 @@ NotEq	env/include/python3.6m/Python-ast.h	/^typedef enum _cmpop { Eq=1, NotEq=2,
 NotIn	env/include/python3.6m/Python-ast.h	/^                      In=9, NotIn=10 } cmpop_ty;$/;"	e	enum:_cmpop
 NotLocked	env/lib/python3.6/site-packages/pip/_vendor/lockfile/__init__.py	/^class NotLocked(UnlockError):$/;"	c
 NotMyLock	env/lib/python3.6/site-packages/pip/_vendor/lockfile/__init__.py	/^class NotMyLock(UnlockError):$/;"	c
+Note	README.md	/^### Note $/;"	S
 NpyAuxData	env/include/python3.6m/numpy/ndarraytypes.h	/^typedef struct NpyAuxData_tag NpyAuxData;$/;"	t	typeref:struct:NpyAuxData_tag
 NpyAuxData_CloneFunc	env/include/python3.6m/numpy/ndarraytypes.h	/^typedef NpyAuxData *(NpyAuxData_CloneFunc) (NpyAuxData *);$/;"	t	typeref:typename:NpyAuxData * ()(NpyAuxData *)
 NpyAuxData_FreeFunc	env/include/python3.6m/numpy/ndarraytypes.h	/^typedef void (NpyAuxData_FreeFunc) (NpyAuxData *);$/;"	t	typeref:typename:void ()(NpyAuxData *)

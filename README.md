@@ -1,6 +1,16 @@
 # Virtual-Assistant
 TensorFlow based Virtual Assistant
 
+General flow 
+
+Raw Text > Tokenization > Tokenized Words (list of strings) > 
+
+Text Processing-RegEx, removing stopwords > 
+
+Enitiy classifier > words with entity tags (list of tuples) > 
+
+intent classifier > Respond with function/message
+
 ## Tokenizer
 
 For the tokenizer make sure you create a directory in env called: nltk_data
